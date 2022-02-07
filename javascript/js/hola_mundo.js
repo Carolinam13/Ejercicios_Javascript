@@ -27,7 +27,7 @@ si el producto es = o superior a 1000000 el descuento sera de 10%
 imprimir valoe inicial
 y valor final,, incluido el descuento*/
 
-let costoinicial = 120000;
+let costoinicial = 60000;
 let descuento1 = .05;
 let descuento2 = .10;
 
@@ -40,12 +40,8 @@ if (costoinicial < 30000){
 console.log("No tiene descuento")
 }
 
-if (costoinicial > 30000 & costoinicial < 100000){
+else if (costoinicial > 30000 && costoinicial < 100000){
 console.log("El valor final es de: $" + producto1);
 }
-if (costoinicial >= 100000); {
-console.log("El valor final es de: $" + producto2);
-}
-
-
-
+else if (costoinicial >= 100000); {
+console.log("El valor final es de: $" + producto2);}
