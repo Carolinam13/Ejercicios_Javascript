@@ -36,12 +36,12 @@ let producto2 = costoinicial - (costoinicial * descuento2);
 
 console.log( "Valor inicial $"+ costoinicial );
 
-if (costoinicial < 30000){
+if (costoinicial <= 30000){
 console.log("No tiene descuento")
 }
 
 else if (costoinicial > 30000 && costoinicial < 100000){
 console.log("El valor final es de: $" + producto1);
 }
-else if (costoinicial >= 100000); {
+else if (costoinicial >= 100000) {
 console.log("El valor final es de: $" + producto2);}
